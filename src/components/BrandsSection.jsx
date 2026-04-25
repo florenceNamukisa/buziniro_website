@@ -1,33 +1,33 @@
 import { useRef } from 'react';
-import brand1 from '../../Assets/images/1.png';
-import brand2 from '../../Assets/images/2.png';
-import brand3 from '../../Assets/images/Buziniro-Group.pdf-image-040.png';
-import brand4 from '../../Assets/images/4.png';
-import brand5 from '../../Assets/images/5.png';
-import brand6 from '../../Assets/images/6.png';
-import brand7 from '../../Assets/images/Buziniro-Group.pdf-image-044.png';
-import brand8 from '../../Assets/images/8.png';
-import brand9 from '../../Assets/images/9.png';
-import brand10 from '../../Assets/images/10.jpg';
-import brand11 from '../../Assets/images/Buziniro-Group.pdf-image-039.png';
-import brand12 from '../../Assets/images/Buziniro-Group.pdf-image-041.png';
-import brand13 from '../../Assets/images/Buziniro-Group.pdf-image-042.png';
+import brand3 from '../../Assets/images/Buziniro1.jpeg';
+import brand7 from '../../Assets/images/Buziniro2.jpeg';
+import brand11 from '../../Assets/images/Buziniro3.jpeg';
+import brand13 from '../../Assets/images/Buziniro4.jpeg';
+import brand15 from '../../Assets/images/Buziniro5.jpeg';
+import brand17 from '../../Assets/images/Buziniro6.jpeg';
+import brand19 from '../../Assets/images/Buziniro7.jpeg';
+import brand21 from '../../Assets/images/Buziniro8.jpeg';
+import brand23 from '../../Assets/images/Buziniro9.jpeg';
+import brand25 from '../../Assets/images/Buziniro11.jpeg';
+import brand27 from '../../Assets/images/Buziniro12.jpeg';
+import brand29 from '../../Assets/images/Buziniro13.jpeg';
+import brand31 from '../../Assets/images/Buziniro14.jpeg';
 import { SectionReveal } from './SectionReveal.jsx';
 
 const brands = [
-  { name: 'Brand One', logo: brand1 },
-  { name: 'Brand Two', logo: brand2 },
   { name: 'Brand Three', logo: brand3 },
-  { name: 'Brand Four', logo: brand4 },
-  { name: 'Brand Five', logo: brand5 },
-  { name: 'Brand Six', logo: brand6 },
   { name: 'Brand Seven', logo: brand7 },
-  { name: 'Brand Eight', logo: brand8 },
-  { name: 'Brand Nine', logo: brand9 },
-  { name: 'Brand Ten', logo: brand10 },
   { name: 'Brand Eleven', logo: brand11 },
-  { name: 'Brand Twelve', logo: brand12 },
   { name: 'Brand Thirteen', logo: brand13 },
+  { name: 'Brand Fifteen', logo: brand15 },
+  { name: 'Brand Seventeen', logo: brand17 },
+  { name: 'Brand Nineteen', logo: brand19 },
+  { name: 'Brand Twenty-One', logo: brand21 },
+  { name: 'Brand Twenty-Three', logo: brand23 },
+  { name: 'Brand Twenty-Five', logo: brand25 },
+  { name: 'Brand Twenty-Seven', logo: brand27 },
+  { name: 'Brand Twenty-Nine', logo: brand29 },
+  { name: 'Brand Thirty-One', logo: brand31 },
 ];
 
 export function BrandsSection() {

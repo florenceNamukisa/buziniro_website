@@ -58,7 +58,7 @@ export function ServicesSection() {
       <div className="container">
         <SectionReveal>
           <SectionHeading
-            eyebrow="Services"
+            eyebrow="Key Sectors"
             title="Sectors that drive progress."
             description="We are diversified across Properties, Hospitality, Capital, Automotives, Manufacturing & Engineering, and Energy & Minerals."
           />

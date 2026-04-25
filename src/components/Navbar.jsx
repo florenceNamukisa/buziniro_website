@@ -11,7 +11,7 @@ const serviceLinks = [
     label: 'Properties',
     href: '/#services-properties',
     children: [
-      { label: 'Facility Management', href: '/facility' },
+      { label: 'Facility Management', href: '#/facility' },
     ],
   },
 ];

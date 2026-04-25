@@ -8,6 +8,7 @@ import industryImg from '../../Assets/images/industry.png';
 import pestImg from '../../Assets/images/pest.png';
 import { Navbar } from '../components/Navbar.jsx';
 import { Footer } from '../components/Footer.jsx';
+import { FacilityBrandsSection } from '../components/FacilityBrandsSection.jsx';
 
 function Hero() {
   return (
@@ -106,7 +107,7 @@ function ServicesSection({ id }) {
     <section id={id} className="facility-services">
       <div className="container">
         <div className="facility-services__header">
-          <span className="facility-services__eyebrow">Our Services</span>
+          <span className="facility-services__eyebrow">Key Sectors</span>
           <h2>SERVICE MANDATE</h2>
           <p>We deliver comprehensive cleaning and facility management solutions across Uganda.</p>
         </div>
@@ -251,6 +252,7 @@ export default function FacilityPage() {
         <AboutSection id="about" />
         <ServicesSection id="services" />
         <FeaturesSection id="why-us" />
+        <FacilityBrandsSection id="brands" />
       </main>
       <Footer />
     </div>

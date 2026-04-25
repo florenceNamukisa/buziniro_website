@@ -1,3 +1,4 @@
+import { useEffect, useState } from 'react';
 import { Navbar } from './components/Navbar.jsx';
 import { Hero } from './components/Hero.jsx';
 import { AboutSection } from './components/AboutSection.jsx';
@@ -9,10 +10,20 @@ import { FloatingWhatsApp } from './components/FloatingWhatsApp.jsx';
 import FacilityPage from './pages/FacilityPage.jsx';
 
 function App() {
-  const path = window.location.pathname;
-  const hash = window.location.hash;
+  const [page, setPage] = useState('home');
   
-  if (path === '/facility' || path === '/facility.html' || path === '/facility/' || hash === '#/facility') {
+  useEffect(() => {
+    const checkHash = () => {
+      const hash = window.location.hash;
+      setPage(hash === '#/facility' || hash === '#facility' ? 'facility' : 'home');
+    };
+    
+    checkHash();
+    window.addEventListener('hashchange', checkHash);
+    return () => window.removeEventListener('hashchange', checkHash);
+  }, []);
+  
+  if (page === 'facility') {
     return <FacilityPage />;
   }
 
